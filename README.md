@@ -1,13 +1,13 @@
 # Level 4 - Crypto-Wallets
 
-In this module you will learn about what are Crypto Wallets and how to download one. 🤔
+Dans ce module, vous apprendrez ce que sont les Crypto Wallets et comment en télécharger un. 🤔
 
 ## Introduction
-To understand crypto wallets fully, we have to understand some concepts about the blockchain, which will help us in understanding how a wallet aids us. Let's start off.
+Pour comprendre pleinement les portefeuilles de crypto-monnaies, nous devons comprendre certains concepts sur la blockchain, qui nous aideront à comprendre comment un portefeuille nous aide. Commençons par le début.
 
 ## What is an address? 🤨
 
-An address is a string of text generated using cryptography to represent your account on the blockchain. This address can be shared publicly with others, and is completely safe to do so. You can send and receive funds from and to your wallet address. Basically, the address is your unique identifier on the blockchain and represents your 'account'. An example of an Ethereum address is: `0x01573Df433484fCBe6325a0c6E051Dc62Ab107D1`.
+Une adresse est une chaîne de texte générée par cryptographie pour représenter votre compte sur la blockchain. Cette adresse peut être partagée publiquement avec d'autres personnes, et ce, en toute sécurité. Vous pouvez envoyer et recevoir des fonds depuis et vers l'adresse de votre portefeuille. En fait, l'adresse est votre identifiant unique sur la blockchain et représente votre "compte". Voici un exemple d'adresse Ethereum : `0x01573Df433484fCBe6325a0c6E051Dc62Ab107D1`.
 
 <Quiz questionId="3088223f-7ba3-4aee-9e75-c4a9dfee84e4" />
 
@@ -15,53 +15,53 @@ An address is a string of text generated using cryptography to represent your ac
 
 ## What are private keys? 🔐
 
-A private key is the counterpart to an address. Each address has an associated private key. As the name suggests though, this is meant to be kept private and not shared with anyone.
+Une clé privée est la contrepartie d'une adresse. Chaque adresse est associée à une clé privée. Comme son nom l'indique, cette clé est destinée à rester privée et à n'être partagée avec personne.
 
-You can think of it like a password, a really strong one, that contains a bunch of letters and numbers that allow you to prove ownership over your address. Anyone who has the private key has access to make transactions from your address i.e. send money from your address to theirs. 
+On peut l'assimiler à un mot de passe, très fort, contenant un ensemble de lettres et de chiffres qui vous permettent de prouver que vous êtes propriétaire de votre adresse. Toute personne qui possède la clé privée peut effectuer des transactions à partir de votre adresse, c'est-à-dire envoyer de l'argent de votre adresse à la sienne. 
 
-A private key looks something like this: `E9873D79C6D87DC0FB6A5778633389F4453213303DA61F20BD67FC233AA33262`
+Une clé privée ressemble à ceci: `E9873D79C6D87DC0FB6A5778633389F4453213303DA61F20BD67FC233AA33262`
 
-If you think of your address as a username for your account, the private key is it's password. Therefore sharing your address is okay, but never ever share your private key or someone might steal your funds - and then nothing can be done about it. 
+Si vous considérez votre adresse comme le nom d'utilisateur de votre compte, la clé privée en est le mot de passe. Par conséquent, vous pouvez partager votre adresse, mais ne partagez jamais votre clé privée, sinon quelqu'un pourrait voler vos fonds - et il n'y aurait alors rien à faire. 
 
 <Quiz questionId="2f0f1c91-7171-4039-bc84-8d6efbb717ff" />
 
-**Caution: Since blockchains are decentralized, there is no 'forgot password' option. If you lose your private key, you lose access to your account. Similarly, if someone steals your private key and steals your funds, you cannot do anything about it. It is VERY important to keep this private key safe.**
+**Attention : Les blockchains étant décentralisées, il n'y a pas d'option "mot de passe oublié". Si vous perdez votre clé privée, vous perdez l'accès à votre compte. De même, si quelqu'un vole votre clé privée et dérobe vos fonds, vous ne pouvez rien y faire. Il est TRÈS important de garder cette clé privée en sécurité.**
 
-For developers, we often use the private key as part of our codebase to perform certain transactions, such as deploying our own smart contracts to the Ethereum network. While you are still learning, we highly suggest you use a separate account entirely for development than you use for storing any sort of funds. Unfortunately, beginner developers often use the same account they have funds on, and accidentally share their codebase publicly - and hackers can see your private key in the codebase and end up stealing funds. Please take that as a tale of caution.
+Pour les développeurs, nous utilisons souvent la clé privée dans le cadre de notre base de code pour effectuer certaines transactions, comme le déploiement de nos propres contrats intelligents sur le réseau Ethereum. Pendant que vous êtes encore en train d'apprendre, nous vous suggérons fortement d'utiliser un compte séparé entièrement pour le développement que vous utilisez pour stocker toute sorte de fonds. Malheureusement, les développeurs débutants utilisent souvent le même compte sur lequel ils ont des fonds, et partagent accidentellement leur base de code publiquement - et les pirates peuvent voir votre clé privée dans la base de code et finir par voler des fonds. Prenez cela comme un conseil de prudence.
 
 <Quiz questionId="1d8fff7f-57ac-4555-ac2b-94c95c76f70d" />
 
 ## What is a seed phrase? 👮‍♀️
 
-A seed phrase is like a master password - the password of passwords!
+Une phrase de démarrage or seed phrase est comme un mot de passe principal - le mot de passe des mots de passe !
 
-Think of a password manager, something like Lastpass or 1Password. These applications, within them, store your usernames and passwords for other apps securely, and themselves have a password. So, if someone hacks your password manager, they also get access to all accounts stored within it.
+Pensez à un gestionnaire de mots de passe, comme Lastpass ou 1Password. Ces applications stockent en leur sein vos noms d'utilisateur et vos mots de passe pour d'autres applications en toute sécurité, et possèdent elles-mêmes un mot de passe. Ainsi, si quelqu'un pirate votre gestionnaire de mots de passe, il aura également accès à tous les comptes qui y sont stockés.
 
-A crypto wallet is kind of like a password manager, where you can manage multiple blockchain accounts. If the private key is the password to a single account, the seed phrase is kind of like the master password for that wallet.
+Un portefeuille cryptographique est un peu comme un gestionnaire de mots de passe, où vous pouvez gérer plusieurs comptes blockchain. Si la clé privée est le mot de passe d'un seul compte, la phrase de démarrage est en quelque sorte le mot de passe principal de ce portefeuille.
 
 <Quiz questionId="530db4f0-937f-409f-ba7c-9456b0174151" />
 
-When you create a new crypto wallet, you will be presented with a seed phrase you should absolutely securely store and back up. Any new accounts you generate from inside that wallet will all be linked to the seed phrase. That one seed phrase will always generate the same accounts, with the same private keys and addresses for each.
+Lorsque vous créez un nouveau portefeuille de crypto-monnaies, vous recevez une phrase de démarrage que vous devez absolument conserver et sauvegarder en toute sécurité. Tous les nouveaux comptes que vous créerez à l'intérieur de ce portefeuille seront tous liés à la phrase d'amorçage. Cette phrase d'amorçage générera toujours les mêmes comptes, avec les mêmes clés privées et les mêmes adresses pour chacun.
 
-So for example if you created a wallet, and then created 5 accounts within it, your seed phrase manages all 5. If you wanted to switch to a new wallet, you could either import the 5 wallets individually - by using their individual private keys - or just import using the seed phrase, and it would regenerate the same 5 accounts.
+Ainsi, par exemple, si vous avez créé un portefeuille, puis 5 comptes, votre phrase d'amorçage gère les 5 comptes. Si vous voulez passer à un nouveau portefeuille, vous pouvez soit importer les 5 portefeuilles individuellement - en utilisant leurs clés privées individuelles - ou simplement importer en utilisant la phrase d'amorçage, et cela régénérera les 5 mêmes comptes.
 
-An example of a seed phrase is: `dove lumber quote board young robust kit invite plastic regular skull history`
+Un exemple de phrase d'amorçage est : `dove lumber quote board young robust kit invite plastic regular skull history`
 
 <Quiz questionId="d4eae61d-fcf7-4447-9dcd-0bd737a687ce" />
 
 ## What is a crypto wallet then? 😛
 
-Crypto wallets are a manager for your accounts, and mainly their private keys. They also allow you to interact with decentralized applications, and allow connecting to a dApp through the wallet, acting as a single sign-on for all applications built on the blockchain. 
+Les portefeuilles de crypto-monnaies sont un gestionnaire de vos comptes, et principalement de leurs clés privées. Ils vous permettent également d'interagir avec des applications décentralisées, et de vous connecter à une dApp par le biais du portefeuille, agissant comme une signature unique pour toutes les applications construites sur la blockchain. 
 
-At LearnWeb3 as well, you can go into the Dashboard and connect your crypto wallet (after you have set it up), which will let us know what your address is so we can send you some sick NFTs when you graduate from our tracks!
+Chez LearnWeb3 aussi, vous pouvez aller dans le tableau de bord et connecter votre portefeuille cryptographique (après l'avoir configuré), ce qui nous permettra de savoir quelle est votre adresse afin que nous puissions vous envoyer des NFTs de malade lorsque vous serez diplômé de nos cours !
 
 <Quiz questionId="6566fc7a-661a-4a6e-b426-d2f851f697f9" />
 
 ## Setting up a Wallet 🎉
 
-For Ethereum, there are a number of wallet options available. The easiest to get started using, and most developer friendly, are either Metamask or Coinbase Wallet. 
+Pour Ethereum, il y a un certain nombre d'options de portefeuille disponibles. Les plus faciles à utiliser, et les plus conviviales pour les développeurs, sont Metamask ou Coinbase Wallet. 
 
-Both are Ethereum crypto wallets that can be installed as browser extensions, or as a mobile apps. You can find the download links below. We suggest downloading any one of them, and setting it up, before proceeding with the track.
+Tous deux sont des portefeuilles de crypto Ethereum qui peuvent être installés comme extensions de navigateur ou comme applications mobiles. Vous pouvez trouver les liens de téléchargement ci-dessous. Nous vous suggérons de télécharger l'un d'entre eux et de le configurer avant de passer à la piste.
 
 - [Download Metamask](https://metamask.io/download.html)
 - [Download Coinbase Wallet](https://www.coinbase.com/wallet)
