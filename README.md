@@ -68,7 +68,7 @@ Tous deux sont des portefeuilles de crypto Ethereum qui peuvent être installés
 
 <Quiz questionId="96c7e46e-5d73-420c-b9da-088f4ad2b29a" />
 
-Other alternatives include Trust Wallet, Atomic Wallet, Rainbow Wallet, Frame.sh, etc.
+Parmi les autres possibilités, citons Trust Wallet, Atomic Wallet, Rainbow Wallet, Frame.sh, etc.
 - [Trust Wallet](https://trustwallet.com/)
 - [Atomic Wallet](https://atomicwallet.io/)
 - [Rainbow Wallet](https://rainbow.me/)
